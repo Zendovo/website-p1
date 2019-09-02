@@ -145,6 +145,26 @@ header a:hover {
     width: 240px;
 }
 
+/* Main */
+section#main {
+    padding-bottom: 30px;
+}
+
+/* Sidebar */
+aside.sidebar {
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+/* Main-col */
+article.main-col {
+    padding-top: 15px;
+    float: left;
+    width: 65%;
+}
+
+
 /* Footer */
 footer {
     background: #233245;
@@ -183,7 +203,9 @@ footer a:hover {
     #newsletter h1,
     #newsletter form,
     #boxes .box,
-    footer .info {
+    footer .info,
+    article.main-col,
+    aside.sidebar {
         float: none;
         text-align: center;
         width: 100%;
@@ -205,6 +227,10 @@ footer a:hover {
     #newsletter form input[type="email"] {
         width: 100%;
         margin-bottom: 5px;
+    }
+
+    aside.sidebar {
+        padding-top: 10px;
     }
 
     footer .info {
